@@ -1,1 +1,37 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <title>HomeTour Manager</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<h1>🏠 HomeTour Manager</h1>
+
+<nav>
+  <button onclick="showTab('settings')">Setting</button>
+  <button onclick="showTab('tour')">Điểm danh</button>
+  <button onclick="showTab('summary')">Tổng kết</button>
+</nav>
+
+<section id="settings" class="tab">
+  <h2>⚙️ Setting</h2>
+  <div id="settingsContent"></div>
+</section>
+
+<section id="tour" class="tab hidden">
+  <h2>📋 Quản lý Tour</h2>
+  <button onclick="createTour()">➕ Tạo tour mới</button>
+  <div id="tourContent"></div>
+</section>
+
+<section id="summary" class="tab hidden">
+  <h2>📊 Tổng kết All-time</h2>
+  <div id="summaryContent"></div>
+</section>
+
+<script src="app.js"></script>
+</body>
+</html>
 
