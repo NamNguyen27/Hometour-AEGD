@@ -1,1 +1,17 @@
-
+{
+  "buy_in": 500000,
+  "rebuy_price": 500000,
+  "scoring": {
+    "1": 100,
+    "2": 80,
+    "3": 60,
+    "4": 40,
+    "5": 20,
+    "6": 10
+  },
+  "blind_structure": [
+    { "level": 1, "sb": 100, "bb": 200, "duration": 20 },
+    { "level": 2, "sb": 200, "bb": 400, "duration": 20 },
+    { "level": 3, "sb": 400, "bb": 800, "duration": 20 }
+  ]
+}
